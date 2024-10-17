@@ -1,0 +1,8 @@
+name: Mellands
+version: '1.0-SNAPSHOT'
+main: net.felsstudio.mellands.Mellands
+api-version: '1.21.1'
+
+commands:
+  lastonline:
+    usage: /lastonline

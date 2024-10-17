@@ -1,0 +1,5 @@
+net\felsstudio\mellands\listeners\CommandCheckerListener.class
+net\felsstudio\mellands\Mellands.class
+net\felsstudio\mellands\listeners\QuitListener.class
+net\felsstudio\mellands\listeners\PhantomSpawnListener.class
+net\felsstudio\mellands\commands\lastOnline.class
