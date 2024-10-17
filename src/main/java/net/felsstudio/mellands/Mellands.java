@@ -29,9 +29,9 @@ public final class Mellands extends JavaPlugin {
         BukkitScheduler bs = getServer().getScheduler();
         bs.runTaskTimer(this,() -> {
             dayCount++;
-            if(dayCount == 8) {
+            if(dayCount == getConfig().getInt("days-to-fantom")) {
                 isPhantomSpawn = true;
-            }else if(dayCount == 9) {
+            }else if(dayCount == getConfig().getInt("days-to-fantom")+1) {
                 isPhantomSpawn = false;
                 dayCount = 0;
             }
